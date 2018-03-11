@@ -6,8 +6,8 @@
 #include <math.h>
 
 // TODO: change weights for cost functions.
-const float REACH_GOAL = 0;
-const float EFFICIENCY = 0;
+const float REACH_GOAL = 5;
+const float EFFICIENCY = 1;
 
 /*
 Here we have provided two possible suggestions for cost functions, but feel free
