@@ -60,7 +60,8 @@ Vehicle::choose_next_state(map<int, vector<Vehicle>> predictions) {
 
   // for (auto possible_successor_state : possible_successor_states) {
   //   cout << possible_successor_state << endl;
-  //   auto trajectory_for_state = generate_trajectory(possible_successor_state, predictions);
+  //   auto trajectory_for_state = generate_trajectory(possible_successor_state,
+  //   predictions);
 
   //   if(trajectory_for_state.size() == 0) {
   //     continue;
